@@ -1,6 +1,6 @@
-from crewai import Task
+from crewai import Task,Agent
 from tools import tool
-from agents import news_researcher,news_writer
+from agent import news_researcher,news_writer
 
 research_task = Agent(
     description=(

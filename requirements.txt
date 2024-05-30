@@ -1,3 +1,4 @@
 crewai
 load_dotenv
 crewai_tools
+langchain-community

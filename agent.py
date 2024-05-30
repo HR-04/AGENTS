@@ -1,8 +1,9 @@
 from crewai import Agent
 from tools import tool
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 import os
+os.environ["OPENAI_API_KEY"] = "NA"
 from langchain_community.llms import Ollama
 
 llm = Ollama(model="llama3") 
